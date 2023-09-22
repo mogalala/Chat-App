@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "783745517341",
+    "project_id": "messageme-app-5d23e",
+    "storage_bucket": "messageme-app-5d23e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783745517341:android:6bb6302bec1fc5394683f4",
+        "android_client_info": {
+          "package_name": "com.galala.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALxwSPWylTQF2XnbIUNNxNDOHyNCDj4To"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
