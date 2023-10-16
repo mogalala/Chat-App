@@ -1,3 +1,5 @@
+import 'dart:js_interop';
+
 import 'package:chat_app/screens/chat_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -86,7 +88,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     final user = await _auth.signInWithEmailAndPassword(
                         email: email, password: password
                     );
-                    if(user != null){
+                    if(user.isNull){
                       Navigator.pushNamed(context, ChatScreen.screenRoute);
                       setState(() {
                         showSpinner = false;
